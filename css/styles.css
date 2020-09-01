@@ -1,0 +1,110 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196F3;
+  --white-text-color: #fff;
+  --secondary-bg-color: #F5F4FA;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+.logo-header {
+  color: var(--primary-text-color);
+}
+.logo-footer {
+  color: var(--white-text-color);
+}
+
+/* SITE-NAV */
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+color: var(--accent-color);
+}
+
+/* CONTACTS */
+  .header-contacts a {
+    color: var(--secondary-text-color);
+}
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* .section-title {
+  color: var(--primary-text-color);
+} */
+
+/* HERO */
+.hero-title {
+  color: var(--white-text-color);
+}
+
+/* ADVANTAGES */
+.advantages-list p {
+  color: var(--secondary-text-color);
+}
+
+/* OUR-TEAM */
+.profession {
+  color: var(--secondary-text-color);
+}
+/* FOOTER */
+.office-address {
+  color: var(--white-text-color);
+}
+.footer-contatcs {
+  color: var(--secondary-text-color);
+}
+.footer-contatcs:hover,
+.footer-contatcs:focus {
+  color: var(--accent-color);
+}
+
+/* BUTTON */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--white-text-color);
+}
+.button.primary {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+.projects-list p {
+  color: var(--secondary-text-color);
+}
+
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* акцент #2196F3 */
+/* белый   #FFFFFF */
+/* контакты футер rgba(255, 255, 255, 0.6); */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет хедер-футер #2F303A; */
