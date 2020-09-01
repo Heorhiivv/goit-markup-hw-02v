@@ -26,7 +26,9 @@ body {
   /* text-align: center; */
   letter-spacing: 0.03em;
 }
-
+address {
+  font-style: normal;
+}
 /********** HEADER ***********/
 .logo {
   font-family: Raleway, sans-serif;
@@ -138,7 +140,6 @@ color: var(--accent-color);
   background-color: var(--third-bg-color);
 }
 .office-address p{
-  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   
@@ -147,7 +148,6 @@ color: var(--accent-color);
   color: var(--white-text-color);
 }
 .footer-contatcs {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
